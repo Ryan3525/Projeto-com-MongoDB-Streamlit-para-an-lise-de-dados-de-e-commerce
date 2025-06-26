@@ -1,1 +1,1 @@
-# Projeto-com-MongoDB-Streamlit-para-an-lise-de-dados-de-e-commerce
+# Projeto com MongoDB Streamlit para analise de dados de e-commerce
