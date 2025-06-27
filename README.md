@@ -42,3 +42,53 @@ A E-Shop Brasil precisa resolver dois grandes desafios:
 - **Big Data:** uso de ferramentas como Spark e Hadoop (teoricamente neste projeto).
 - **Streamlit:** framework para visualização de dados e interfaces de usuário.
 - **Docker:** ambiente isolado e padronizado para fácil execução.
+
+  ## 5. Hipóteses Levantadas
+
+1. A ausência de um sistema de dados unificado dificulta a análise de comportamento dos clientes.
+2. O uso apenas de SQL torna o sistema rígido e lento com grandes volumes de dados.
+3. A falta de automação e integração entre os canais limita a capacidade de resposta logística.
+
+---
+
+## 6. Solução Proposta
+
+A melhor solução foi:
+
+### Utilizar um banco NoSQL (MongoDB) integrado a uma aplicação em Streamlit via Docker
+
+**Por que essa solução?**
+
+- MongoDB permite **flexibilidade e escalabilidade** com dados não estruturados.
+- Streamlit permite **interface simples para manipulação dos dados**.
+- Docker facilita o **ambiente isolado, portátil e pronto para produção**.
+
+Outras soluções avaliadas:
+
+| Solução | Prós | Contras |
+|--------|------|---------|
+| ERP completo | Integra tudo | Alto custo |
+| SQL puro | Segurança e robustez | Baixa escalabilidade |
+| Big Data puro | Alta performance | Complexidade e custo |
+
+---
+
+## 7. Plano de Ação
+
+### Etapas:
+
+1. **Montar ambiente com Docker + MongoDB**
+2. **Desenvolver aplicação com Streamlit**
+3. **Implementar inserção, leitura, edição, exclusão e concatenação de dados**
+4. **Simular fluxo com dados reais ou sintéticos**
+5. **Documentar e disponibilizar no GitHub**
+
+---
+
+## 8. Tecnologias Utilizadas
+
+- Docker
+- MongoDB
+- Python 3.10+
+- Streamlit
+- Pandas
