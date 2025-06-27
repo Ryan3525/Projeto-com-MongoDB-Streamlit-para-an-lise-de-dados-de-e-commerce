@@ -124,7 +124,6 @@ Outras soluções avaliadas:
 
 # Instale os pacotes necessários e execute o app:
 ```bash
-
 pip install -r requirements.txt
 
 streamlit run app.py
