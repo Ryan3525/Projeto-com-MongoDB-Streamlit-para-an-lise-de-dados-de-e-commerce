@@ -85,10 +85,54 @@ Outras soluções avaliadas:
 
 ---
 
-## 8. Tecnologias Utilizadas
+  # Objetivo
 
-- Docker
-- MongoDB
-- Python 3.10+
+- Simular uma aplicação para gerenciar dados de clientes da E-Shop Brasil.
+- Utilizar o MongoDB Atlas para armazenar os dados.
+- Utilizar Streamlit como interface gráfica para:
+  - Inserção de dados
+  - Edição e exclusão
+  - Visualização de dados
+  - Filtros de busca
+  - Concatenação de coleções
+
+---
+
+# Tecnologias Utilizadas
+
+- Python
 - Streamlit
-- Pandas
+- MongoDB Atlas
+- Faker (para gerar dados fictícios)
+- Docker (opcional)
+
+---
+
+# Estrutura do Projeto
+
+├── app.py # Aplicação principal em Streamlit
+├── inserir_outros.py # Script opcional para preencher coleção 'outros_dados'
+├── requirements.txt # Dependências da aplicação
+├── README.md # Documentação do projeto
+└── Exemplos # Pasta com prints do app funcionando
+├── print_insercao.png
+├── print_lista.png
+├── print_filtro.png
+└── print_concatenacao.png
+
+# Como Executar
+
+# Instale os pacotes necessários e execute o app:
+```bash
+
+pip install -r requirements.txt
+
+streamlit run app.py
+
+# Lembrando que para a execução, é necessario se certificar que a conexão com a internet está em fucnionamento e que a conta do MongoDB Atlas está configurada corretamente no app.py
+
+
+## Desenvolvido por Ryan da Cruz
+
+
+## Este projeto faz parte de uma atividade prática da disciplina de Banco de Dados e Big Data.
